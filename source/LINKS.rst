@@ -24,6 +24,8 @@
 .. _正则表达式: http://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F
 .. _tmux: http://www.linuxtoy.org/archives/from-screen-to-tmux.html
 
+.. _42: http://en.wikipedia.org/wiki/42_(number)
+
 .. _Python: http://python.org
 .. _Pythonic: http://wiki.woodpecker.org.cn/moin/PythonIc
 .. _Python website: http://www.python.org
@@ -36,6 +38,9 @@
 
 .. 图片链接收集~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. |zqeye| image:: _static/zq-eyes.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 

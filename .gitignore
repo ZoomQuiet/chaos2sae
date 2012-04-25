@@ -4,7 +4,6 @@
 *.swp
 .tmp*
 *~
-*.log
 *.pyc
 *.egg
 *.pdf
@@ -13,6 +12,7 @@
 *.ppt
 *.xls
 *.mht
+*.chm
 *.mp3
 *.mp4
 *.wma
@@ -20,6 +20,12 @@
 *.zip
 *.7z
 *.xz
+*.tar
+*.tar.gz
+*.tar.bz
+*.tar.bz2
+*.tbz
+*.tgz
 *.map
 *.log
 *.txt
