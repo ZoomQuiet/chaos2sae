@@ -5,7 +5,7 @@
     - 去除了 window.resize 事件
     - 去除 仿google code 文档的侧栏切换
  */
-DESELEMENT = "h1,h2,h3,h4,.highlight-python";//"h1,h2,h3,h4,ul,div.section p,div.highlight-python";
+DESELEMENT = "h1,h2,h3,h4,.highlight-python,.figure";//"h1,h2,h3,h4,ul,div.section p,div.highlight-python";
 
 function clean_tag(st){
     return st.replace(/<[^>]+>?[^<]*>/g, '');

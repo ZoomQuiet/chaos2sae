@@ -3,69 +3,28 @@
 
 整备
 ==============
-只要明确一些 `Lua`_ 的`基本形式` 80% 的实际编程就可以混进去了 `!-)` :
+
+如果真心没有学习过 `Python`_ ,抄过了 `hallo world` 肯定没法儿继续了,,,
+
+不过,其实, `Python`_ 真心好学习,最多两小时,就可以完成各种常见任务了,,,
+
+先参考 :ref:`fig_1_1` ,体会一下, `Python`_ 的主要语法形式: 
+
+.. _fig_1_1:
+.. figure:: ../_static/figs/120417-coffeeghost-q-in-py.png
+
+   插图 1-1 Python 脚本核心语法直觉理解图
 
 
-.. sidebar:: 提示
-    :subtitle: 教程
+来源: `Py脚本一分钟直解 <http://wiki.woodpecker.org.cn/moin/ZqQuickIntoPy>`_
 
-    lua-users.org `维基 <http://lua-users.org/wiki/FindPage>`_ 
 
-    中搜索 `tutorial`
+
+.. seealso:: 教程推荐
     
-    大约几十篇,有空的话,真心应该看,,
-
-
-
-- 基本语法
-
-.. code-block:: lua
-
-    -- 单行注释
-    --[[
-        多行
-        注释
-    ]]
-    a="hollo"
-    b= a .. 1   -- 字串连接,连接数字会自动转换类型
-    b,a = a,b   -- 巨爽直的变量交换 
-
-    c=0
-    if 1 ~= c   -- 不等于?
-        print "Yes"
-    else
-        print "No"
-    end
-
-
-    function d(e,f)
-        return e,f,e*f
-    end
-
-    A1,A2,result = d(2,3)
-    print(A1,A2,result)
-
-
-- 基本数据
-
-    - 数字,字串,布尔 基本和其它脚本语言类同
-    - `nil` ~ 空值
-    - 特殊的是 `function` 也是基本数据类型!
-    - 关系表,嗯嗯嗯,就是Python 里的字典吼
-
-
-.. code-block:: lua
-
-    T1 ={ 10,  -- 相当于 [1] = 10
-        ,[100] = 40,
-        ,John={  -- 如果你原意，你还可以写成：["John"] =
-            Age=27   -- 如果你原意，你还可以写成：["Age"] =27
-            ,Gender=Male   -- 如果你原意，你还可以写成：["Gender"] =Male
-            }
-        ,20  -- 相当于 [2] = 20
-    }
-
-
+    - `笨办法学 Python <http://readthedocs.org/docs/learn-python-the-hard-way-zh_cn-translation/en/latest/index.html>`_
+    - `简明Python教程 <http://woodpecker.org.cn/abyteofpython_cn/chinese/>`_
+    - `官方Tutorial <http://docs.python.org/tutorial/index.html>`_
 
 
 

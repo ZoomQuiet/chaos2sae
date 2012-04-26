@@ -13,6 +13,7 @@
     - 发布: http://chaos2sae.RTFD.org
     - 流程: `OBP流程`_
     - 掺合: `OBP参与`_
+    - 实例代码: https://bitbucket.org/ZoomQuiet/ok.urisa
 
 
 - TODO
